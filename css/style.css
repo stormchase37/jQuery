@@ -1,0 +1,88 @@
+@charset 'UTF-8';
+@import url('reset.css');
+
+#overlay {
+	position: fixed;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+h1 {
+	font-size: 50px;
+	left: 600px;
+	text-decoration: underline;
+}
+
+#photos {
+	display: block;
+	left: 600px;
+	top: 250px;
+	width: 660px;
+	height: 540px;
+	overflow: hidden;
+	border-radius: 30px;
+
+	
+}
+
+#photos img {
+	width: 660px;
+	height: 540px;
+	position: absolute;
+	left: -15%
+	right: -15%;
+}
+
+#sites li {
+	display: block;
+
+	font-size: 15px;
+	width: 20%;
+	height: 50px;
+}
+
+#sites li a {
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 10px;
+}
+
+#sites li a:hover {
+	background-color: rgb(150, 189, 212);
+}
+
+#sites ul {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 15px;
+}
+
+#sites ul li {
+	float: none;
+	width: 100%;
+
+}
+
+#accord, #accord li, #accord li a {
+	display: block;
+	width: 400px;
+	height: auto;
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+#accord {
+	background: rgba(0,0,0,0.2);
+	border-radius: 20px;
+}
+
+#accord li {
+	padding: 20px;
+}
